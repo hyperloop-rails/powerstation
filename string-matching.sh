@@ -10,7 +10,10 @@ grep -r '\.where(.*)\.first' *
 
 # => *.except(order)
 
+grep -r '\.group(.*)\.count' *
+
 # each.update => update_all
+pcregrep -M  'each.*(\n|.)*update' * 
 
 # .count => size
 
