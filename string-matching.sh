@@ -29,4 +29,4 @@ grep -r '\.pluck(.*).*+.*\.pluck(.*)' *
 
 # if exists? find else create end => find_or_create_by 
 
-pcrep 
+pcregrep -M  'if.*exists?.*(\n|.)*find.*(\n|.)*else.*(\n|.)*create.*(\n|.)*end' * 
