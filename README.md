@@ -1,5 +1,5 @@
 # static-chekcer
-this static-checker is used to detect the inefficient API usage that found by our work which includes 9 anti-patterns
+this static-checker is used to detect the 9 inefficient API usage in our table 7
 1. any? => exists?
 2. where.first? => find_by
 3. * => *.except(order)
