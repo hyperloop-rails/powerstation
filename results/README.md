@@ -39,7 +39,7 @@ In every tab, each column shows the checking reuslt for one API misuse rule.
 9. if exists? find else create end => find_or_create_by
 
     discourse/app/models/group.rb 
-    <code>
+    <code> 
     
     def add_owner(user) 
     
