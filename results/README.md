@@ -40,19 +40,11 @@ In every tab, each column shows the checking reuslt for one API misuse rule.
 
     discourse/app/models/group.rb 
     <code> 
-    
-    def add_owner(user) 
-    
-        if group_user = self.group_users.find_by(user: user)
-        
-          group_user.update_attributes!(owner: true) if !group_user.owner
-          
-        else
-        
-          GroupUser.create!(user: user, group: self, owner: true)
-          
-        end
-        
-    end
-    
+    def add_owner(user) <br>
+        if group_user = self.group_users.find_by(user: user)    <br> 
+          group_user.update_attributes!(owner: true) if !group_user.owner <br>
+        else<br>
+          GroupUser.create!(user: user, group: self, owner: true)<br>
+        end        <br>
+    end<br>
     </code>
