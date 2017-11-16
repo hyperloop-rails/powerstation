@@ -1,7 +1,7 @@
 # inefficient API misuse checking results
-Every tab in this Excel sheet shows checking results for one application with the application-name specified. 
-The summary tab shows the aggregated results.
-In every tab, each column shows the checking reuslt for one API misuse rule.
+Every tab in this Excel sheet shows checking results for one application with the application-name specified. </br>
+The summary tab shows the aggregated results.</br>
+In every tab, each column shows the checking reuslt for one API misuse rule.</br>
 In the following, we will list one code snippet example for certain application under each inefficient API misuse pattern. 
 1. any? or count(*) > 0 => exists? 
 
