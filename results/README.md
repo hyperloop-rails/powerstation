@@ -1,5 +1,5 @@
 # inefficient API misuse checking results
-Every tab in this Excel sheet shows checking results for one application with the application-name specified the summary tab is the aggregation results.
+Every tab in this Excel sheet shows checking results for one application with the application-name specified. 
 The summary tab shows the aggregated results.
 In every tab, each column shows the checking reuslt for one API misuse rule.
 1. any? or count(*) > 0 => exists? 
