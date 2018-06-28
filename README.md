@@ -1,3 +1,23 @@
+# PowerStation
+
+## Compile it on your own computer
+
+Open it in Intellij IDEA
+
+Choose `gradle` to run a new task as: `runIDE`
+
+Run it.
+
+Find your PowerStation under `build/lib/powerstation.jar`
+
+## How to use the plugin
+
+[Tutorial](https://hyperloop-rails.github.io/powerstation/)
+
+## Static analysis code
+
+Under the `src/main/resources/static-analyzer` folder 
+
 # static-checker
 this static-checker is used to detect the simple API misuse patterns in our table 7
 1. exists > 0 => exists?
