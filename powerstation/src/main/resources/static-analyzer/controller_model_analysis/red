@@ -1,0 +1,8 @@
+Start 2018-06-25 00:03:18 -0500
+call_file ../applications/pw-redmine//calls.txt
+ruby main.rb -d ../applications/pw-redmine/ -s AccountController,activate
+Start 2018-06-25 00:03:18 -0500
+dir = ../applications/pw-redmine/
+read_ruby_files: 1.0e-06
+size: AccountController ../applications/pw-redmine//merged_controllers/account_controller.rb AccountController
+const length: 2 mcs: 22

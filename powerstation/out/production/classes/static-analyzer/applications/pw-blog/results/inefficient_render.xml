@@ -1,0 +1,11 @@
+<inefficientRenders>
+<inefficientRender>
+<statement>
+20
+</statement>
+<filename>
+controllers/blogs_controller.rb
+</filename>
+<expr>link_to</expr>
+</inefficientRender>
+</inefficientRenders>

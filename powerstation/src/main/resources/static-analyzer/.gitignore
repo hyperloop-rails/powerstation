@@ -1,0 +1,9 @@
+*.class
+*.swp
+results/
+results_old/
+figs/
+*.line
+*.log
+temp.log
+applications/*

@@ -1,0 +1,1648 @@
+dir = ../applications/pw-fulcrum/
+read schema: class projects_users (ProjectsUser) cannot be found!
+ADD INDEX: User, confirmation_token
+ADD INDEX: User, email
+ADD INDEX: User, reset_password_token
+Changeset.since, Found super ActiveRecord::Base
+Changeset.until, Found super ActiveRecord::Base
+Note.as_json, Found super ActiveRecord::Base
+Project.with_stories_notes, Found super ActiveRecord::Base
+Project.as_json, Found super ActiveRecord::Base
+Story.done, Found super ActiveRecord::Base
+Story.in_progress, Found super ActiveRecord::Base
+Story.backlog, Found super ActiveRecord::Base
+Story.chilly_bin, Found super ActiveRecord::Base
+Story.as_json, Found super ActiveRecord::Base
+User.as_json, Found super ActiveRecord::Base
+Finish reading files
+METHOD NOT FOUND: ../applications/pw-fulcrum//dataflow/merged_controllers/static_controller.log, []
+METHOD NOT FOUND: ../applications/pw-fulcrum//dataflow/merged_controllers/static_controller.log, full_messages
+read_dataflow: 0.166499
+in RegistrationsController Reject ApplicationController . render_404
+in RegistrationsController Reject ApplicationController . render_404
+do_type_inference: 3.848995
+Start 2018-06-22 07:50:36 -0500
+
+
+=================================
+=================================
+Handling ApplicationController, locales
+compute ../applications/pw-fulcrum//results/ApplicationController_locales
+Time1: 2018-06-22 07:50:36 -0500
+Time2: 2018-06-22 07:50:36 -0500
+Duration: ApplicationController, locales 0.002881
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ApplicationController_locales/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ApplicationController_locales/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ChangesetsController, index
+compute ../applications/pw-fulcrum//results/ChangesetsController_index
+Time1: 2018-06-22 07:50:36 -0500
+STATSTIME-build graph: 0.066517
+STATSTIME-Common_subexpression: 0.019441
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.013671
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000197
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000374
+STATSTIME-redundant_usage: 0.000382
+Time2: 2018-06-22 07:50:36 -0500
+Duration: ChangesetsController, index 0.103013
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ChangesetsController_index/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ChangesetsController_index/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ConfirmationsController, create
+compute ../applications/pw-fulcrum//results/ConfirmationsController_create
+Time1: 2018-06-22 07:50:36 -0500
+STATSTIME-build graph: 0.02397
+STATSTIME-Common_subexpression: 0.002217
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.002275
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 6.7e-05
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000155
+STATSTIME-redundant_usage: 0.00016
+Time2: 2018-06-22 07:50:36 -0500
+Duration: ConfirmationsController, create 0.031346
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ConfirmationsController_create/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ConfirmationsController_create/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ConfirmationsController, new
+compute ../applications/pw-fulcrum//results/ConfirmationsController_new
+Time1: 2018-06-22 07:50:36 -0500
+STATSTIME-build graph: 0.007397
+STATSTIME-Common_subexpression: 0.000836
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.000808
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 7.6e-05
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000119
+STATSTIME-redundant_usage: 0.00013
+Time2: 2018-06-22 07:50:36 -0500
+Duration: ConfirmationsController, new 0.013142
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ConfirmationsController_new/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ConfirmationsController_new/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ConfirmationsController, show
+compute ../applications/pw-fulcrum//results/ConfirmationsController_show
+Time1: 2018-06-22 07:50:36 -0500
+STATSTIME-build graph: 0.033189
+STATSTIME-Common_subexpression: 0.003989
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.004984
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 9.3e-05
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.0002
+STATSTIME-redundant_usage: 0.000208
+Time2: 2018-06-22 07:50:36 -0500
+Duration: ConfirmationsController, show 0.045149
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ConfirmationsController_show/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ConfirmationsController_show/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling NotesController, create
+compute ../applications/pw-fulcrum//results/NotesController_create
+Time1: 2018-06-22 07:50:36 -0500
+STATSTIME-build graph: 0.118855
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 27]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 27]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 28]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 30]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 28]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 30]
+/controllers/notes_controller.rb
+STATSTIME-Common_subexpression: 0.075183
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.025593
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000145
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000496
+STATSTIME-redundant_usage: 0.000502
+Time2: 2018-06-22 07:50:37 -0500
+Duration: NotesController, create 0.223449
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/NotesController_create/qgraph_vis.gv -o ../applications/pw-fulcrum//results/NotesController_create/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling NotesController, destroy
+compute ../applications/pw-fulcrum//results/NotesController_destroy
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.056644
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 19]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 19]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 20]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 20]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 21]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 20]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 20]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 21]
+/controllers/notes_controller.rb
+STATSTIME-Common_subexpression: 0.023008
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.012788
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000214
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000264
+STATSTIME-redundant_usage: 0.00027
+Time2: 2018-06-22 07:50:37 -0500
+Duration: NotesController, destroy 0.09573
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/NotesController_destroy/qgraph_vis.gv -o ../applications/pw-fulcrum//results/NotesController_destroy/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling NotesController, index
+compute ../applications/pw-fulcrum//results/NotesController_index
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.053884
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 5]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 5]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 6]
+/controllers/notes_controller.rb
+STATSTIME-Common_subexpression: 0.015336
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.011506
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000186
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000214
+STATSTIME-redundant_usage: 0.000219
+Time2: 2018-06-22 07:50:37 -0500
+Duration: NotesController, index 0.084993
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/NotesController_index/qgraph_vis.gv -o ../applications/pw-fulcrum//results/NotesController_index/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling NotesController, show
+compute ../applications/pw-fulcrum//results/NotesController_show
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.056043
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 12]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 12]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 13]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 13]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 13]
+/controllers/notes_controller.rb
+results: ["../applications/pw-fulcrum/controllers/notes_controller.rb", 13]
+/controllers/notes_controller.rb
+STATSTIME-Common_subexpression: 0.020387
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.011989
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000122
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.00032
+STATSTIME-redundant_usage: 0.000325
+Time2: 2018-06-22 07:50:37 -0500
+Duration: NotesController, show 0.091628
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/NotesController_show/qgraph_vis.gv -o ../applications/pw-fulcrum//results/NotesController_show/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ProjectsController, create
+compute ../applications/pw-fulcrum//results/ProjectsController_create
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.109336
+results: ["../applications/pw-fulcrum/controllers/projects_controller.rb", 47]
+/controllers/projects_controller.rb
+results: ["../applications/pw-fulcrum/controllers/projects_controller.rb", 50]
+/controllers/projects_controller.rb
+STATSTIME-Common_subexpression: 0.030593
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 1
+getInClosure length is : 1
+getNonViewClosureStack length is : 1
+PARENT_INSR
+[ProjectsHelper.point_scale_options] (4.0) %v_4[3.0] %v_4[2.7] %self[2.0]  %v_4 -> collect
+PARENT_INSR [ProjectsHelper.point_scale_options] (4.0) %v_4[3.0] %v_4[2.7] %self[2.0]  %v_4 -> collect
+jump out 
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.018818
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+ppppp [ProjectsHelper.point_scale_options] (4.0) %v_4[3.0] %v_4[2.7] %self[2.0]  %v_4 -> collect
+
+jump out inefficent partial
+ppppp [ProjectsHelper.day_name_options] (2.10) %v_6[2.9] %self[2.0]  %v_6 -> collect
+
+jump out inefficent partial
+ppppp [ProjectsHelper.iteration_length_options] (2.7) %v_3[2.6] %self[2.0]  %v_3 -> collect
+
+jump out inefficent partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000482
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000609
+STATSTIME-redundant_usage: 0.000615
+Time2: 2018-06-22 07:50:37 -0500
+Duration: ProjectsController, create 0.162514
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ProjectsController_create/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ProjectsController_create/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ProjectsController, destroy
+compute ../applications/pw-fulcrum//results/ProjectsController_destroy
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.042937
+STATSTIME-Common_subexpression: 0.012488
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.010439
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.00016
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000459
+STATSTIME-redundant_usage: 0.000467
+Time2: 2018-06-22 07:50:37 -0500
+Duration: ProjectsController, destroy 0.06949
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ProjectsController_destroy/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ProjectsController_destroy/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ProjectsController, edit
+compute ../applications/pw-fulcrum//results/ProjectsController_edit
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.04155
+STATSTIME-Common_subexpression: 0.01151
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.01077
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000143
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000183
+STATSTIME-redundant_usage: 0.000188
+Time2: 2018-06-22 07:50:37 -0500
+Duration: ProjectsController, edit 0.067159
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ProjectsController_edit/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ProjectsController_edit/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ProjectsController, index
+compute ../applications/pw-fulcrum//results/ProjectsController_index
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.03658
+STATSTIME-Common_subexpression: 0.010013
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.010167
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000111
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000194
+STATSTIME-redundant_usage: 0.000199
+Time2: 2018-06-22 07:50:37 -0500
+Duration: ProjectsController, index 0.060279
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ProjectsController_index/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ProjectsController_index/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ProjectsController, new
+compute ../applications/pw-fulcrum//results/ProjectsController_new
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.037289
+STATSTIME-Common_subexpression: 0.009798
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.010373
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000112
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000198
+STATSTIME-redundant_usage: 0.000203
+Time2: 2018-06-22 07:50:37 -0500
+Duration: ProjectsController, new 0.060663
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ProjectsController_new/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ProjectsController_new/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ProjectsController, show
+compute ../applications/pw-fulcrum//results/ProjectsController_show
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.04641
+STATSTIME-Common_subexpression: 0.01254
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.013736
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000116
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000384
+STATSTIME-redundant_usage: 0.000392
+Time2: 2018-06-22 07:50:37 -0500
+Duration: ProjectsController, show 0.076141
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ProjectsController_show/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ProjectsController_show/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling ProjectsController, update
+compute ../applications/pw-fulcrum//results/ProjectsController_update
+Time1: 2018-06-22 07:50:37 -0500
+STATSTIME-build graph: 0.118461
+STATSTIME-Common_subexpression: 0.020281
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 1
+getInClosure length is : 1
+getNonViewClosureStack length is : 1
+PARENT_INSR
+[ProjectsHelper.point_scale_options] (4.0) %v_4[3.0] %v_4[2.7] %self[2.0]  %v_4 -> collect
+PARENT_INSR [ProjectsHelper.point_scale_options] (4.0) %v_4[3.0] %v_4[2.7] %self[2.0]  %v_4 -> collect
+jump out 
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.016798
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+ppppp [ProjectsHelper.point_scale_options] (4.0) %v_4[3.0] %v_4[2.7] %self[2.0]  %v_4 -> collect
+
+jump out inefficent partial
+ppppp [ProjectsHelper.day_name_options] (2.10) %v_6[2.9] %self[2.0]  %v_6 -> collect
+
+jump out inefficent partial
+ppppp [ProjectsHelper.iteration_length_options] (2.7) %v_3[2.6] %self[2.0]  %v_3 -> collect
+
+jump out inefficent partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000342
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000606
+STATSTIME-redundant_usage: 0.000611
+Time2: 2018-06-22 07:50:38 -0500
+Duration: ProjectsController, update 0.159033
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/ProjectsController_update/qgraph_vis.gv -o ../applications/pw-fulcrum//results/ProjectsController_update/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling RegistrationsController, cancel
+compute ../applications/pw-fulcrum//results/RegistrationsController_cancel
+Time1: 2018-06-22 07:50:38 -0500
+Time2: 2018-06-22 07:50:38 -0500
+Duration: RegistrationsController, cancel 0.003149
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/RegistrationsController_cancel/qgraph_vis.gv -o ../applications/pw-fulcrum//results/RegistrationsController_cancel/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling RegistrationsController, create
+compute ../applications/pw-fulcrum//results/RegistrationsController_create
+Time1: 2018-06-22 07:50:38 -0500
+Time2: 2018-06-22 07:50:38 -0500
+Duration: RegistrationsController, create 0.003131
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/RegistrationsController_create/qgraph_vis.gv -o ../applications/pw-fulcrum//results/RegistrationsController_create/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling RegistrationsController, destroy
+compute ../applications/pw-fulcrum//results/RegistrationsController_destroy
+Time1: 2018-06-22 07:50:38 -0500
+Time2: 2018-06-22 07:50:38 -0500
+Duration: RegistrationsController, destroy 0.002858
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/RegistrationsController_destroy/qgraph_vis.gv -o ../applications/pw-fulcrum//results/RegistrationsController_destroy/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling RegistrationsController, edit
+compute ../applications/pw-fulcrum//results/RegistrationsController_edit
+Time1: 2018-06-22 07:50:38 -0500
+in RegistrationsController Reject ProjectsController . edit
+Time2: 2018-06-22 07:50:38 -0500
+Duration: RegistrationsController, edit 0.002617
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/RegistrationsController_edit/qgraph_vis.gv -o ../applications/pw-fulcrum//results/RegistrationsController_edit/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling RegistrationsController, new
+compute ../applications/pw-fulcrum//results/RegistrationsController_new
+Time1: 2018-06-22 07:50:38 -0500
+Time2: 2018-06-22 07:50:38 -0500
+Duration: RegistrationsController, new 0.003166
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/RegistrationsController_new/qgraph_vis.gv -o ../applications/pw-fulcrum//results/RegistrationsController_new/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling RegistrationsController, update
+compute ../applications/pw-fulcrum//results/RegistrationsController_update
+Time1: 2018-06-22 07:50:38 -0500
+Time2: 2018-06-22 07:50:38 -0500
+Duration: RegistrationsController, update 0.003237
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/RegistrationsController_update/qgraph_vis.gv -o ../applications/pw-fulcrum//results/RegistrationsController_update/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StaticController, testcard
+compute ../applications/pw-fulcrum//results/StaticController_testcard
+Time1: 2018-06-22 07:50:38 -0500
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StaticController, testcard 0.003555
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StaticController_testcard/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StaticController_testcard/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, accept
+compute ../applications/pw-fulcrum//results/StoriesController_accept
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.046935
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.018349
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.012015
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000184
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000341
+STATSTIME-redundant_usage: 0.000347
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StoriesController, accept 0.080527
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_accept/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_accept/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, backlog
+compute ../applications/pw-fulcrum//results/StoriesController_backlog
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.044799
+STATSTIME-Common_subexpression: 0.013375
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.01155
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000147
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.00026
+STATSTIME-redundant_usage: 0.000266
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StoriesController, backlog 0.072653
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_backlog/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_backlog/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, create
+compute ../applications/pw-fulcrum//results/StoriesController_create
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.089859
+STATSTIME-Common_subexpression: 0.035238
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.017738
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000131
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.00041
+STATSTIME-redundant_usage: 0.000415
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StoriesController, create 0.146186
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_create/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_create/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, deliver
+compute ../applications/pw-fulcrum//results/StoriesController_deliver
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.047996
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.014804
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.011728
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000171
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000389
+STATSTIME-redundant_usage: 0.000398
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StoriesController, deliver 0.077699
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_deliver/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_deliver/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, destroy
+compute ../applications/pw-fulcrum//results/StoriesController_destroy
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.048969
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 39]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 39]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 40]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.016424
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.010934
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000161
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000299
+STATSTIME-redundant_usage: 0.000305
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StoriesController, destroy 0.079428
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_destroy/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_destroy/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, done
+compute ../applications/pw-fulcrum//results/StoriesController_done
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.041759
+STATSTIME-Common_subexpression: 0.012995
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.010626
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 9.8e-05
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000181
+STATSTIME-redundant_usage: 0.000186
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StoriesController, done 0.068326
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_done/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_done/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, finish
+compute ../applications/pw-fulcrum//results/StoriesController_finish
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.048542
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.015764
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.012225
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000112
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000238
+STATSTIME-redundant_usage: 0.000243
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StoriesController, finish 0.07953
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_finish/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_finish/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, import
+compute ../applications/pw-fulcrum//results/StoriesController_import
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.040133
+STATSTIME-Common_subexpression: 0.010905
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.011408
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000121
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000231
+STATSTIME-redundant_usage: 0.00024
+Time2: 2018-06-22 07:50:38 -0500
+Duration: StoriesController, import 0.065499
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_import/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_import/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, import_upload
+compute ../applications/pw-fulcrum//results/StoriesController_import_upload
+Time1: 2018-06-22 07:50:38 -0500
+STATSTIME-build graph: 0.380499
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 115]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 116]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 119]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 116]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 119]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.166884
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 2
+getInClosure length is : 2
+getNonViewClosureStack length is : 2
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+PARENT_INSR
+[Project.from_csv] (2.17) %v_8[2.14] %self[2.0] %self[2.7]  %v_8 -> map
+PARENT_INSR [Project.from_csv] (2.17) %v_8[2.14] %self[2.0] %self[2.7]  %v_8 -> map
+jump out 
+PARENT_INSR
+[Story.from_csv_row] (2.17) row[2.5] %self[2.0] %self[2.7]  row -> each
+PARENT_INSR [Story.from_csv_row] (2.17) row[2.5] %self[2.0] %self[2.7]  row -> each
+get into the parent_instr's dependency
+3
+no dep [Story.from_csv_row] (7.5) project[-1.-1]  project -> users true Handler: 
+no dep [Story.from_csv_row] (7.5) project[-1.-1]  project -> users true Handler: 
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/note.rb", 11, 0]
+/models/note.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/note.rb", 13, 0]
+/models/note.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/note.rb", 16, 0]
+/models/note.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/mailers/notifications.rb", 35, 0]
+/mailers/notifications.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/mailers/notifications.rb", 30, 0]
+/mailers/notifications.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 202, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 202, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 202, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/note.rb", 13, 0]
+/models/note.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/note.rb", 11, 0]
+/models/note.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/note.rb", 11, 0]
+/models/note.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+results: ["../applications/pw-fulcrum/models/changeset.rb", 21, 0]
+/models/changeset.rb
+results: ["../applications/pw-fulcrum/models/story.rb", 53, 0]
+/models/story.rb
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.936052
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+ppppp [Project.from_csv] (2.17) %v_8[2.14] %self[2.0] %self[2.7]  %v_8 -> map
+
+jump out inefficent partial
+ppppp [Project.from_csv] (7.1) users[-1.-1] %self[-1.-1] %self[-1.-1] %self[2.0]  users -> detect
+
+jump out inefficent partial
+ppppp [Project.from_csv] (7.2) users[-1.-1] users[7.1] %self[-1.-1] %self[-1.-1] %self[2.0]  users -> detect
+
+jump out inefficent partial
+ppppp [Story.from_csv_row] (2.17) row[2.5] %self[2.0] %self[2.7]  row -> each
+
+jump out inefficent partial
+ppppp [StoriesController.import_upload] (20.1) %v_67[20.0] %self[2.0] %self[2.11] %self[6.10] %self[6.14] %self[6.18]  %v_67 -> each_with_index
+
+jump out inefficent partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.002533
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000926
+STATSTIME-redundant_usage: 0.000931
+Time2: 2018-06-22 07:50:40 -0500
+Duration: StoriesController, import_upload 1.490239
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_import_upload/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_import_upload/qgraph.pdf
++++ Take time: 00:00:01 +++
+
+
+=================================
+=================================
+Handling StoriesController, index
+compute ../applications/pw-fulcrum//results/StoriesController_index
+Time1: 2018-06-22 07:50:40 -0500
+STATSTIME-build graph: 0.059322
+STATSTIME-Common_subexpression: 0.016481
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.013462
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000106
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000268
+STATSTIME-redundant_usage: 0.000276
+Time2: 2018-06-22 07:50:40 -0500
+Duration: StoriesController, index 0.092465
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_index/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_index/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, in_progress
+compute ../applications/pw-fulcrum//results/StoriesController_in_progress
+Time1: 2018-06-22 07:50:40 -0500
+STATSTIME-build graph: 0.042842
+STATSTIME-Common_subexpression: 0.014038
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.012703
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000111
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000219
+STATSTIME-redundant_usage: 0.000227
+Time2: 2018-06-22 07:50:40 -0500
+Duration: StoriesController, in_progress 0.072451
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_in_progress/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_in_progress/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, reject
+compute ../applications/pw-fulcrum//results/StoriesController_reject
+Time1: 2018-06-22 07:50:40 -0500
+STATSTIME-build graph: 0.048993
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.015552
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.011474
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.00015
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000322
+STATSTIME-redundant_usage: 0.000332
+Time2: 2018-06-22 07:50:40 -0500
+Duration: StoriesController, reject 0.079302
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_reject/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_reject/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, show
+compute ../applications/pw-fulcrum//results/StoriesController_show
+Time1: 2018-06-22 07:50:40 -0500
+STATSTIME-build graph: 0.047029
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 18]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 18]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.014859
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.011261
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 9.6e-05
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000177
+STATSTIME-redundant_usage: 0.000182
+Time2: 2018-06-22 07:50:40 -0500
+Duration: StoriesController, show 0.076193
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_show/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_show/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, start
+compute ../applications/pw-fulcrum//results/StoriesController_start
+Time1: 2018-06-22 07:50:40 -0500
+STATSTIME-build graph: 0.048981
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 142]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.01616
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.011935
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000106
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000239
+STATSTIME-redundant_usage: 0.000247
+Time2: 2018-06-22 07:50:40 -0500
+Duration: StoriesController, start 0.080124
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_start/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_start/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoriesController, update
+compute ../applications/pw-fulcrum//results/StoriesController_update
+Time1: 2018-06-22 07:50:40 -0500
+STATSTIME-build graph: 0.096178
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 24]
+/controllers/stories_controller.rb
+results: ["../applications/pw-fulcrum/controllers/stories_controller.rb", 24]
+/controllers/stories_controller.rb
+STATSTIME-Common_subexpression: 0.042115
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.01834
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.000136
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000448
+STATSTIME-redundant_usage: 0.000455
+Time2: 2018-06-22 07:50:40 -0500
+Duration: StoriesController, update 0.160302
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoriesController_update/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoriesController_update/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling StoryController, new
+compute ../applications/pw-fulcrum//results/StoryController_new
+Time1: 2018-06-22 07:50:40 -0500
+Time2: 2018-06-22 07:50:40 -0500
+Duration: StoryController, new 0.003115
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/StoryController_new/qgraph_vis.gv -o ../applications/pw-fulcrum//results/StoryController_new/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling UsersController, create
+compute ../applications/pw-fulcrum//results/UsersController_create
+Time1: 2018-06-22 07:50:40 -0500
+STATSTIME-build graph: 0.148355
+results: ["../applications/pw-fulcrum/controllers/users_controller.rb", 14]
+/controllers/users_controller.rb
+results: ["../applications/pw-fulcrum/controllers/users_controller.rb", 15]
+/controllers/users_controller.rb
+results: ["../applications/pw-fulcrum/controllers/users_controller.rb", 27]
+/controllers/users_controller.rb
+results: ["../applications/pw-fulcrum/controllers/users_controller.rb", 30]
+/controllers/users_controller.rb
+STATSTIME-Common_subexpression: 0.040712
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.024277
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+ppppp [UsersController.create] (5.7) %v_24[5.6] %self[5.2] %self[5.4] %self[2.0] %self[2.11] %self[2.15] %self[2.23]  %v_24 -> each
+
+funcname project_user_path; caller: %self [UsersController.create] (3.4) %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[2.0] %cl_3_4[3.3] user[2.2]  %self -> project_user_path User
+funcname email; caller: user [UsersController.create] (3.7) user[2.2]  user -> email UsersController
+funcname link_to; caller: %self [UsersController.create] (3.11) %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[3.4] %self[2.0] %cl_3_3[3.2] %cl_3_5[3.4] %cl_3_10[3.10]  %self -> link_to UsersController
+CNCL VAR: %self #<Local_variable:0x007fc6f9c1f4b8>
+CNCL VAR: self #<Local_variable:0x007fc6f9c1f378>
+CNCL VAR: self_model_class #<Local_variable:0x007fc6f9c1f210>
+CNCL VAR: %cl_3_0 #<Variable:0x007fc6f9c1c178>
+CNCL VAR: user #<Variable:0x007fc6faaf1248>
+CNCL VAR: %current_scope #<Temp_variable:0x007fc6fa8ba9c0>
+CNCL VAR: %current_module #<Temp_variable:0x007fc6fa87a758>
+CNCL VAR: %cl_3_3 #<Temp_variable:0x007fc6fa86b370>
+CNCL VAR: %cl_3_4 #<Temp_variable:0x007fc6fa83bd00>
+CNCL VAR: %cl_3_5 #<Variable:0x007fc6faad0818>
+CNCL VAR: %cl_3_6 #<Temp_variable:0x007fc6f9b06ce8>
+CNCL VAR: %cl_3_7 #<Temp_variable:0x007fc6f9a17530>
+CNCL VAR: %cl_3_8 #<Temp_variable:0x007fc6f9bde300>
+CNCL VAR: %cl_3_9 #<Temp_variable:0x007fc6f9bce1a8>
+CNCL VAR: %cl_3_10 #<Temp_variable:0x007fc6f9bbd6c8>
+CNCL VAR: %cl_3_11 #<Variable:0x007fc6faa60bf8>
+CNCL VAR: %cl_3_12 #<Variable:0x007fc6faa58db8>
+CNCL VAR: %cl_3_13 #<Variable:0x007fc6faa51ae0>
+ppppp [UsersController.create] (3.1) %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[2.0] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1] %self[-1.-1]  %self -> fields_for
+
+jump out inefficent partial
+results: ["../applications/pw-fulcrum//ruby_views/users/index.html.erb", 7]
+//views/users/index.html.erb
+RS1
+results: ["../applications/pw-fulcrum//ruby_views/users/index.html.erb", 4]
+//views/users/index.html.erb
+RS2
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 0.002004
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.00056
+STATSTIME-redundant_usage: 0.000565
+Time2: 2018-06-22 07:50:41 -0500
+Duration: UsersController, create 0.218552
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/UsersController_create/qgraph_vis.gv -o ../applications/pw-fulcrum//results/UsersController_create/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling UsersController, destroy
+compute ../applications/pw-fulcrum//results/UsersController_destroy
+Time1: 2018-06-22 07:50:41 -0500
+STATSTIME-build graph: 0.051474
+results: ["../applications/pw-fulcrum/controllers/users_controller.rb", 43]
+/controllers/users_controller.rb
+results: ["../applications/pw-fulcrum/controllers/users_controller.rb", 43]
+/controllers/users_controller.rb
+results: ["../applications/pw-fulcrum/controllers/users_controller.rb", 44]
+/controllers/users_controller.rb
+STATSTIME-Common_subexpression: 0.015217
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.01081
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 7.2e-05
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000444
+STATSTIME-redundant_usage: 0.000452
+Time2: 2018-06-22 07:50:41 -0500
+Duration: UsersController, destroy 0.081203
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/UsersController_destroy/qgraph_vis.gv -o ../applications/pw-fulcrum//results/UsersController_destroy/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling UsersController, index
+compute ../applications/pw-fulcrum//results/UsersController_index
+Time1: 2018-06-22 07:50:41 -0500
+STATSTIME-build graph: 0.04196
+STATSTIME-Common_subexpression: 0.01268
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+n is isReadQuery 
+size is: 0
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+APP ../applications/pw-fulcrum/
+STATSTIME-Loop invariant: 0.010243
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+compute_inefficient_partial
+FINISH
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STATSTIME-inefficient_render: 9.3e-05
+===============Start compute dead store query===============
+STATSTIME-dead_store: 0.000168
+STATSTIME-redundant_usage: 0.000173
+Time2: 2018-06-22 07:50:41 -0500
+Duration: UsersController, index 0.067738
+-----Finsh Time------
+command : dot -Tpdf ../applications/pw-fulcrum//results/UsersController_index/qgraph_vis.gv -o ../applications/pw-fulcrum//results/UsersController_index/qgraph.pdf
++++ Take time: 00:00:00 +++
+ALL DURATION OF ../applications/pw-fulcrum/ 4.811776

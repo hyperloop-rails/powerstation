@@ -1,0 +1,6 @@
+! query 22 uses fields name, nickname, address, created_at, 
+! query 26 uses fields 
+Large Redundant Field: Blog.text, in query [BlogsController.show] (5.2) %v_11[5.1]  %v_11 -> first, used = false
+! query 50 uses fields id, 
+! query 57 uses fields 
+! query 139 uses fields 

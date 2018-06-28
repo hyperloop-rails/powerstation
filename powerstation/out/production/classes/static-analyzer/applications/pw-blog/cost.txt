@@ -1,0 +1,3 @@
+blogs/show.html.erb p.user-num 54.7ms
+blogs/_blog.html.erb div.blogs 224.8ms
+blogs/_user.html.erb div.users 58.3ms
