@@ -20,7 +20,7 @@ Under the `src/main/resources/static-analyzer` folder
 
 # static-checker
 this static-checker is used to detect the simple API misuse patterns in our table 7
-1. exists > 0 => exists?
+1. count > 0 => exists?
 2. where.first? => find_by
 3. * => *.except(order)
 4. each.update => update_all
