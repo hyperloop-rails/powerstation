@@ -1,4 +1,4 @@
-# static-chekcer
+# static-checker
 this static-checker is used to detect the simple API misuse patterns in our table 7
 1. any? => exists?
 2. where.first? => find_by
