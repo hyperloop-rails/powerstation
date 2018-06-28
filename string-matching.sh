@@ -2,7 +2,7 @@
 
 # any? => exists?
 
-grep -r '\.any?' *
+grep -r '\.count > 0?' *
 
 # where.first? => find_by
 
