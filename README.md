@@ -1,6 +1,6 @@
 # PowerStation
 
-## Compile it on your own computer
+### RubyMine Plugin Version
 
 Open it in Intellij IDEA
 
@@ -10,11 +10,11 @@ Run it.
 
 Find your PowerStation under `build/lib/powerstation.jar`
 
-## How to use the plugin
+### How to use the plugin
 
 [Tutorial](https://hyperloop-rails.github.io/powerstation/)
 
-## Static analysis code
+## Static analysis CMD line Version
 
 Under the `src/main/resources/static-analyzer` folder 
 
