@@ -11,7 +11,9 @@
 3. a simple checker that finds API misuses, which simply finds misuses by pattern matching on source code and does not require installing any dependent packages, in `static-checker`.
 
 Correspondingly, we have three branches where you can checkout each part individually, for example, 
-```$ git clone -b static-checker --single-branch https://github.com/hyperloop-rails/static-checker.git```.
+```
+$ git clone -b static-checker --single-branch https://github.com/hyperloop-rails/static-checker.git
+```
 
 ### Anti-patterns that current version of powerstation detects:
 
