@@ -2,18 +2,20 @@
 
 * Basically, to get the statistics and anti-patterns detection results:
 
+```$./ana.sh app_name $DIR```
+
 $DIR is the path of your app as application/app/ 
 
 For example, if you want to run a single action,
 ```
-$./single_action.sh forem PostsController,index /home/forem/app 
+$./single_action.sh forem PostsController,index /home/forem/app/
 ```
 
 Results will stored in the ../application/forem/results/PostsController_index/*.xml.
 
 * If you wish to run sin actions from an application, do:
 ```
-$./ana.sh app_name $DIR
+$./ana.sh app_name /home/forem/app/
 ```
 
 Results will be saved to the folder under the app directory.
