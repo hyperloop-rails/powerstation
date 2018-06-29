@@ -6,17 +6,18 @@
 
 $DIR is the path to your app as application/app/ 
 
-For example, if you want to run a single action,
+For example, if you want to run a single action, do:
 ```
 $./single_action.sh forem PostsController,index /home/forem/app/
 ```
 
 Results will stored in the ../application/forem/results/PostsController_index/*.xml.
 
-* If you wish to run sin actions from an application, do:
+* If you wish to run all actions from an application, do:
 ```
 $./ana.sh app_name /home/forem/app/
 ```
+Results will stored in the ../application/forem/results/*.xml.
 
 Results will be saved to the folder under the app directory.
 The folder name is defined under global.rb, and by default is /result/.
