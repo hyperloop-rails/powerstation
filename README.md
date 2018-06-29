@@ -13,6 +13,8 @@
 Correspondingly, we have three branches where you can checkout each part individually, for example, 
 ```$ git clone -b static-checker --single-branch https://github.com/hyperloop-rails/static-checker.git```.
 
+This branch includes only the source code for IDE plugin.
+
 ### Anti-patterns that current version of powerstation detects:
 
 1. Loop invariant queries
