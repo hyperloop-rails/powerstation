@@ -17,7 +17,7 @@ These are packaged in two separate branches (`IDE_plugin`, `static-checker`) in 
 $ git clone -b static-checker --single-branch https://github.com/hyperloop-rails/static-checker.git
 ```
 
-## Bugs that we currently detect:
+## Currently detected bugs
 
 1. Loop invariant queries
 
