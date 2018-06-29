@@ -12,7 +12,7 @@ There are two ways to use Powerstation:
 
 Both of these uses a static code checker that we have built to detect performance issues. The source code of the checker is in `static-checker`.
 
-We have prepared three branches for you if you prefer checkout each part individually, for example:
+These are packaged in two separate branches (`IDE_plugin`, `static-checker`) in case you prefer checkout each part individually, for example:
 ```
 $ git clone -b static-checker --single-branch https://github.com/hyperloop-rails/static-checker.git
 ```
@@ -33,4 +33,4 @@ $ git clone -b static-checker --single-branch https://github.com/hyperloop-rails
 
 Details of these are explained in [our documentation](https://hyperloop-rails.github.io/powerstation/docs/features/).
 
-See our [main website](https://hyperloop-rails.github.io) for more details. 
+See our [main website](https://hyperloop-rails.github.io) for more details. Feel free to submit issues and pull requests!
