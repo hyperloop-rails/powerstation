@@ -9,8 +9,10 @@ this static-checker is used to detect the simple API misuse patterns in our tabl
 7. pluck.sum => sum
 8. .pluck + pluck => SQL UNION
 9. if exists? find else create end => find_or_create_by
+
 ## shell version 
 ```$./string-matching.sh```
+
 Environment requirement
 for multiline regex expression matching, need to install pcre
 link: http://pcre.org/
