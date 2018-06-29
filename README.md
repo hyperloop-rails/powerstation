@@ -1,6 +1,6 @@
 # PowerStation
 
-### What for :
+### What for:
 
 Find performance issues for 6 anti-patterns:
 
