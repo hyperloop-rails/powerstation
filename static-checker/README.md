@@ -19,10 +19,12 @@ link: http://pcre.org/
 
 ## java version
 
-under the regex folder
+source code is under the regex/src folder
 
 usage: 
 ```$java -jar StaticChekcer.jar folder```
+
+The result will be output to the file "inefficientAPI.xml"
 
 
 
