@@ -1,0 +1,18 @@
+dir = ../applications/pw-ff/
+read schema: class invasives (Invasife) cannot be found!
+read schema: class sessions (Session) cannot be found!
+Finish reading files
+METHOD NOT FOUND: ../applications/pw-ff//dataflow/models/type.log, ids
+METHOD NOT FOUND: ../applications/pw-ff//dataflow/models/type.log, i18n_name_field
+METHOD NOT FOUND: ../applications/pw-ff//dataflow/models/type.log, hash_tree
+METHOD NOT FOUND: ../applications/pw-ff//dataflow/models/type.log, dyna_tree
+METHOD NOT FOUND: ../applications/pw-ff//dataflow/models/type.log, full_list
+METHOD NOT FOUND: ../applications/pw-ff//dataflow/models/type.log, full_list_with_ids
+METHOD NOT FOUND: ../applications/pw-ff//dataflow/models/type.log, sorted_with_parents
+METHOD NOT FOUND: ../applications/pw-ff//dataflow/models/type.log, default_sort
+read_dataflow: 2.634099
+in SessionsController Reject ApplicationController . after_sign_in_path_for
+in SessionsController Reject ApplicationController . after_sign_in_path_for
+do_type_inference: 32.097366
+Start 2018-06-21 18:06:44 -0500
+ALL DURATION OF ../applications/pw-ff/ 2.0e-05

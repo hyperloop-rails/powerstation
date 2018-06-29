@@ -1,8 +1,19 @@
 # PowerStation
 
-### What for:
+[Powerstation](https://hyperloop-rails.github.io/powerstation/) is a tool to help you find performance bugs in your Rails applications, for example, API misuse, repeated query, etc. 
 
-Find performance issues for 6 anti-patterns:
+### What is included:
+
+1. Source code for [powerstation RubyMine plugin](https://plugins.jetbrains.com/plugin/10604-powerstation), in `powerstation/IDE_plugin`;
+
+2. a command line version of powerstation, where you may extend powerstation to find more anti-patterns, in `powerstation/command_line_tool`;
+
+3. a simple checker that finds API misuses, which simply finds misuses by pattern matching on source code and does not require installing any dependent packages, in `static-checker`.
+
+Correspondingly, we have three branches where you can checkout each part individually, for example, 
+```$ git clone -b static-checker --single-branch https://github.com/hyperloop-rails/static-checker.git```.
+
+### Anti-patterns that current version of powerstation detects:
 
 1. Loop invariant queries
 
@@ -16,41 +27,5 @@ Find performance issues for 6 anti-patterns:
 
 6. Inefficient data rendering
 
-Specifically, you for 5. API misuses, you can also refer to the simple static checker.
+These anti-patterns are explained in [powerstation features](https://hyperloop-rails.github.io/powerstation/docs/features/).
 
-
-### RubyMine Plugin Version
-
-#### How to compile
-
-Open it in Intellij IDEA
-
-Choose `gradle` to run a new task as: `runIDE`
-
-Run it.
-
-Find your PowerStation under `build/lib/powerstation.jar`
-
-#### How to use the plugin
-
-[Tutorial](https://hyperloop-rails.github.io/powerstation/)
-
-## #Static analysis CMD line Version
-
-Under the `src/main/resources/static-analyzer` folder 
-
-# static-checker
-this static-checker is used to detect the simple API misuse patterns in our table 7
-1. count > 0 => exists?
-2. where.first? => find_by
-3. * => *.except(order)
-4. each.update => update_all
-5. .count => size
-6. .map => .pluck
-7. pluck.sum => sum
-8. .pluck + pluck => SQL UNION
-9. if exists? find else create end => find_or_create_by
-
-Environment requirement
-for multiline regex expression matching, need to install pcre
-link: http://pcre.org/

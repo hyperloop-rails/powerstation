@@ -1,8 +1,9 @@
 # static-checker
-this static-checker is used to detect the simple API misuse patterns in our table 7
+
+this static-checker is used to detect the simple API misuse patterns:
 1. exists > 0 => exists?
 2. where.first? => find_by
-3. * => *.except(order)
+3. \* => \*.except(order)
 4. each.update => update_all
 5. .count => size
 6. .map => .pluck
@@ -13,9 +14,9 @@ this static-checker is used to detect the simple API misuse patterns in our tabl
 ## shell version 
 ```$./string-matching.sh```
 
-Environment requirement
-for multiline regex expression matching, need to install pcre
-link: http://pcre.org/
+Environment requirement:
+
+Install [pcre](http://pcre.org/).
 
 ## java version
 
@@ -24,7 +25,7 @@ source code is under the regex/src folder
 usage: 
 ```$java -jar StaticChekcer.jar folder```
 
-The result will be output to the file "inefficientAPI.xml"
+The result is dumped into "inefficientAPI.xml"
 
 
 

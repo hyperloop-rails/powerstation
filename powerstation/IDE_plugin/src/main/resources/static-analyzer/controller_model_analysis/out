@@ -1,0 +1,46 @@
+dir = ../applications/bench/
+Finish reading files
+
+
+=================================
+=================================
+Handling ApplicationController, index
+Compute_field_order: qchain size = 0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+command : dot -Tpdf ../applications/bench//results/ApplicationController_index/qgraph_vis.gv -o ../applications/bench//results/ApplicationController_index/qgraph.pdf
++++ Take time: 00:00:00 +++
+
+
+=================================
+=================================
+Handling UsersController, index
+Qnode: 32, viewstack =  getViewShow = false
+Qnode: 45, viewstack =  getViewShow = false
+Qnode: 63, viewstack =  getViewShow = false
+Compute_field_order: qchain size = 5
+18:[UsersController.index] (2.7) %cl_1_3[2.6]  %cl_1_3 -> all
+32:[User.getAll] (2.7) %v_3[2.6]  %v_3 -> all
+45:[UsersController.index] (3.2) %v_8[3.1]  %v_8 -> limit
+63:[UsersController.index] (4.2) %cl_2_7[4.1]  %cl_2_7 -> limit
+87:[UsersController.index] (3.7) %v_11[3.6]  %v_11 -> exists?
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+~~~~~~~~~~~~~Handling loop invariant~~~~~~~~~~~~~~~~~
+no dep [UsersController.index] (2.7) %cl_1_3[2.6]  %cl_1_3 -> all true Handler: 
+no dep [UsersController.index] (2.11) %cl_1_5[2.10]  %cl_1_5 -> getAll false Handler: #<CFG:0x00000002467970>
+no dep [UsersController.index] (4.1) %cl_2_6[4.0]  %cl_2_6 -> all true Handler: 
+no dep [UsersController.index] (4.2) %cl_2_7[4.1]  %cl_2_7 -> limit true Handler: 
+no dep [UsersController.index] (7.2) %cl_2_13[7.1]  %cl_2_13 -> end false Handler: 
+the number of loop in query is : 3
+1 query
+[UsersController.index] (2.7) %cl_1_3[2.6]  %cl_1_3 -> all 4
+2 query
+[UsersController.index] (4.1) %cl_2_6[4.0]  %cl_2_6 -> all 13
+3 query
+[UsersController.index] (4.2) %cl_2_7[4.1]  %cl_2_7 -> limit 13
+~~~~~~~~~~~~~Finish handling loop invariant~~~~~~~~~~~
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+command : dot -Tpdf ../applications/bench//results/UsersController_index/qgraph_vis.gv -o ../applications/bench//results/UsersController_index/qgraph.pdf
++++ Take time: 00:00:00 +++
