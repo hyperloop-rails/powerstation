@@ -1,34 +1,29 @@
-# Powerstation command line tool
+# Using the Powerstation command line tool
 
-* Basically, to get the statistics and anti-patterns detection results:
+To get the statistics and performance bug detection results, run:
 
 ```$./ana.sh app_name $DIR```
 
-$DIR is the path to your app as application/app/ 
+where `$DIR` is the path to your applications `app` directory.
 
-For example, if you want to run a single action, do:
+For example, if you want to get the results for a single action called `PostsController` in the `foo` application, then run:
 ```
-$./single_action.sh forem PostsController,index /home/forem/app/
+$./single_action.sh forem PostsController,index /home/foo/app/
 ```
 
-Results will stored in the ../application/forem/results/PostsController_index/*.xml.
+Results will be stored in `../application/foo/results/PostsController_index/*.xml`.
 
-* If you wish to run all actions from an application, do:
+If you want to get the results from all actions in `foo`, then run:
 ```
-$./ana.sh app_name /home/forem/app/
+$./ana.sh foo /home/foo/app/
 ```
-Results will stored in the ../application/forem/results/*.xml.
 
-Results will be saved to the folder under the app directory.
-The folder name is defined under global.rb, and by default is /result/.
+Results will be saved to the folder under the `app` directory.
+The folder name is defined in `global.rb`, which by default is `/result/`.
 
-For you application, we need a calls.txt file, which you can achieve as follows:
+The tool needs to know all entrance controller actions from your application. It assumes them to be stored in a file called `calls.txt`. You can generate that file by running:
 
-* in your app, run:
 ```
 $rake routes | tail -n +2 | awk '{ for (i=1;i<=NF;i++) if (match($i, /.#./)) print $i}' | sed -e 's/#/,/g' | sort | uniq
 ```
-to get the list of entrance controller actions that can be invoked by the app, copy it to APPDIR/calls.txt
-
-
-
+in your app, and then copying it to `<APPDIR>/calls.txt`.
