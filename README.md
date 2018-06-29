@@ -4,11 +4,11 @@
 
 ### What is included:
 
-1. Source code for [powerstation RubyMine plugin](https://plugins.jetbrains.com/plugin/10604-powerstation), in `powerstation/IDE_plugin`;
+1. Source code for [powerstation RubyMine plugin](https://plugins.jetbrains.com/plugin/10604-powerstation), in `./powerstation/IDE_plugin`;
 
-2. a command line version of powerstation, where you may extend powerstation to find more anti-patterns, in `powerstation/command_line_tool`;
+2. a command line version of powerstation, where you may extend powerstation to find more anti-patterns, in `./powerstation/command_line_tool`;
 
-3. a simple checker that finds API misuses, which simply finds misuses by pattern matching on source code and does not require installing any dependent packages, in `static-checker`.
+3. a simple checker that finds API misuses, which simply finds misuses by pattern matching on source code and does not require installing any dependent packages, in `./static-checker`.
 
 Correspondingly, we have three branches where you can checkout each part individually, for example, 
 ```
