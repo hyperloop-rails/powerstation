@@ -4,18 +4,18 @@ To get the statistics and performance bug detection results, run:
 
 ```$./ana.sh app_name $DIR```
 
-where `$DIR` is the path to your applications `app` directory.
+where `$DIR` is the path to your applications directory.
 
 For example, if you want to get the results for a single action called `PostsController` in the `foo` application, then run:
 ```
-$./single_action.sh forem PostsController,index /home/foo/app/
+$./single_action.sh foo PostsController,index /home/foo/
 ```
 
 Results will be stored in `../application/foo/results/PostsController_index/*.xml`.
 
 If you want to get the results from all actions in `foo`, then run:
 ```
-$./ana.sh foo /home/foo/app/
+$./ana.sh foo /home/foo/
 ```
 
 Results will be saved to the folder under the `app` directory.
