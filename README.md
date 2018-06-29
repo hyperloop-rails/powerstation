@@ -1,21 +1,23 @@
 # PowerStation
 
-[Powerstation](https://hyperloop-rails.github.io/powerstation/) is a tool to help you find performance bugs in your Rails applications, for example, API misuse, repeated query, etc. 
+[Powerstation](https://hyperloop-rails.github.io/powerstation/) is a tool that finds performance bugs in Rails applications, for example, API misuse, repeated query, etc. 
 
-### What is included:
+## Using the tool
 
-1. Source code for [powerstation RubyMine plugin](https://plugins.jetbrains.com/plugin/10604-powerstation), in `./powerstation/IDE_plugin`;
+There are two ways to use Powerstation:
 
-2. a command line version of powerstation, where you may extend powerstation to find more anti-patterns, in `./powerstation/command_line_tool`;
+- As a RubyMine plugin that you can [download from the jetbrains website](https://plugins.jetbrains.com/plugin/10604-powerstation). The source code is included in this repo under `powerstation/IDE_plugin`.
 
-3. a simple checker that finds API misuses, which simply finds misuses by pattern matching on source code and does not require installing any dependent packages, in `./static-checker`.
+- As command line tool. The instructions and source code are included in this repo under `powerstation/command_line_tool`.
 
-Correspondingly, we have three branches where you can checkout each part individually, for example, 
+Both of these uses a static code checker that we have built to detect performance issues. The source code of the checker is in `static-checker`.
+
+We have prepared three branches for you if you prefer checkout each part individually, for example:
 ```
 $ git clone -b static-checker --single-branch https://github.com/hyperloop-rails/static-checker.git
 ```
 
-### Anti-patterns that current version of powerstation detects:
+## Bugs that we currently detect:
 
 1. Loop invariant queries
 
@@ -29,5 +31,6 @@ $ git clone -b static-checker --single-branch https://github.com/hyperloop-rails
 
 6. Inefficient data rendering
 
-These anti-patterns are explained in [powerstation features](https://hyperloop-rails.github.io/powerstation/docs/features/).
+Details of these are explained in [our documentation](https://hyperloop-rails.github.io/powerstation/docs/features/).
 
+See our [main website](https://hyperloop-rails.github.io) for more details. 
