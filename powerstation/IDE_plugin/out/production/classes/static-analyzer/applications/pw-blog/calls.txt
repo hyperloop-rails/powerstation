@@ -1,8 +1,0 @@
-blogs,create
-blogs,destroy
-blogs,edit
-blogs,index
-blogs,new
-blogs,show
-blogs,update
-welcome,index
