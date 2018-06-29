@@ -1,31 +1,25 @@
-# static-checker
+# Powerstation Static Code Checker
 
-this static-checker is used to detect the simple API misuse patterns:
-1. exists > 0 => exists?
-2. where.first? => find_by
-3. \* => \*.except(order)
-4. each.update => update_all
-5. .count => size
-6. .map => .pluck
-7. pluck.sum => sum
-8. .pluck + pluck => SQL UNION
-9. if exists? find else create end => find_or_create_by
+This directory contains the static code checker code that is used by Powerstation.
 
-## shell version 
-```$./string-matching.sh```
+The static checker can currecntly detect the following API misuse patterns:
 
-Environment requirement:
+1. `exists > 0` => `exists?`
+2. `where.first?` => `find_by`
+3. `\*` => `\*.except(order)`
+4. `each.update` => `update_all`
+5. `.count` => `size`
+6. `.map` => `.pluck`
+7. `pluck.sum` => `sum`
+8. `.pluck + pluck` => `SQL UNION`
+9. `if exists? find else create end` => `find_or_create_by`
 
-Install [pcre](http://pcre.org/).
+See our [paper](https://hyperloop-rails.github.io/220-HowNotStructure.pdf) for description of these misues.
 
-## java version
+You can run the checker in two ways:
 
-source code is under the regex/src folder
+- as shell script: `string-matching.sh`. You need to first install [pcre](http://pcre.org/) before running.
 
-usage: 
-```$java -jar StaticChekcer.jar folder```
+- as a Java program: the source code is in `regex/src` Example usage: `$java -jar StaticChekcer.jar <folder>`
 
-The result is dumped into "inefficientAPI.xml"
-
-
-
+The results are dumped into `inefficientAPI.xml`.
