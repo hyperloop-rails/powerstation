@@ -1,1 +1,1 @@
-This directory contains the plugin code for Powerstation.
+This directory contains the plugin and command line code for Powerstation.
