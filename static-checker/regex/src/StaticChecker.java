@@ -20,7 +20,7 @@ public class StaticChecker {
         }
         else{
             System.out.println("Usage: java -jar StaticChecker.jar folder");
-            System.exit(0);
+            //System.exit(0);
         }
 
         File path = new File(filename);
@@ -107,21 +107,21 @@ public class StaticChecker {
     public static String generateXML(List<Pair<PluckSum, List<PluckSum>>> matches, String filename){
         String result = "";
         for(Pair<PluckSum, List<PluckSum>> pps: matches){
-            result += "<plucksum>\n";
-            result += "<filename>" + filename + "</filename>\n";
+            result += "\t<plucksum>\n";
+            result += "\t\t<filename>" + filename + "</filename>\n";
             PluckSum ps = pps.getKey();
-            result += "<source>" + ps.getSource().trim() + "</source>\n";
-            result += "<loc>" + (ps.getPluck().getLoc() + 1 ) + "</loc>\n";
+            result += "\t\t<source>" + ps.getSource().trim() + "</source>\n";
+            result += "\t\t<loc>" + (ps.getPluck().getLoc() + 1 ) + "</loc>\n";
             List<PluckSum> lps = pps.getValue();
-            result += "<sum>\n";
+            result += "\t\t<sum>\n";
             if(lps != null) {
                 for (PluckSum sp : lps) {
-                    result += "<source>" + sp.getSource().trim() + "</source>\n";
-                    result += "<loc>" + (sp.getPluck().getLoc() + 1 )+ "</loc>\n";
+                    result += "\t\t\t<source>" + sp.getSource().trim() + "</source>\n";
+                    result += "\t\t\t<loc>" + (sp.getPluck().getLoc() + 1 )+ "</loc>\n";
                 }
             }
-            result += "</sum>\n";
-            result += "</plucksum>\n";
+            result += "\t\t</sum>\n";
+            result += "\t</plucksum>\n";
         }
         return result;
     }
@@ -266,10 +266,10 @@ public class StaticChecker {
                 while(m.find()){
                     int s = m.start();
                     int e = m.end();
-                    output += "<" + types[j] + ">\n";
-                    output += "<filename>" + line.substring(s, e) + "</filename>\n";
-                    output += "<loc>" + (indicies[i] + 1 ) + "</loc>\n";
-                    output += "</" + types[j] + ">\n";
+                    output += "\t<" + types[j] + ">\n";
+                    output += "\t\t<filename>" + line.substring(s, e) + "</filename>\n";
+                    output += "\t\t<loc>" + (indicies[i] + 1 ) + "</loc>\n";
+                    output += "\t</" + types[j] + ">\n";
                 }
             }
         }
@@ -301,12 +301,12 @@ public class StaticChecker {
                         Matcher mupdate = pupdate.matcher(newline);
                         while(mupdate.find()){
 
-                            output += "<updateall>\n";
-                            output += "<loc>" + indices[(i + 1)] + "</loc>\n";
-                            output += "<locupdate>" + indices[(j + 1)] + "</locupdate>\n";
-                            output += "<source>" + matchString.trim() +  "</source>\n";
-                            output += "<sourceupdate>" + newline.substring(mupdate.start(), mupdate.end()).trim() +  "</sourceupdate>";
-                            output += "</updateall>\n";
+                            output += "\t<updateall>\n";
+                            output += "\t\t<loc>" + indices[(i + 1)] + "</loc>\n";
+                            output += "\t\t<locupdate>" + indices[(j + 1)] + "</locupdate>\n";
+                            output += "\t\t<source>" + matchString.trim() +  "</source>\n";
+                            output += "\t\t<sourceupdate>" + newline.substring(mupdate.start(), mupdate.end()).trim() +  "</sourceupdate>";
+                            output += "\t</updateall>\n";
                         }
                     }
                 }
@@ -338,10 +338,10 @@ public class StaticChecker {
                        break;
                     }
                     if(j == 0){
-                        output += "<map>\n";
-                        output += "<loc>" + indices[(i + 1)] + "</loc>\n";
-                        output += "<source>" + matchString.trim() +  ".map</source>\n";
-                        output += "</map>\n";
+                        output += "\t<map>\n";
+                        output += "\t\t<loc>" + indices[(i + 1)] + "</loc>\n";
+                        output += "\t\t<source>" + matchString.trim() +  ".map</source>\n";
+                        output += "\t</map>\n";
                     }
                 }
 
@@ -373,14 +373,14 @@ public class StaticChecker {
                                 String thirdline = lines[k];
                                 Matcher mcreate = pcreate.matcher(thirdline);
                                 while(mcreate.find()){
-                                    output += "<findcreate>\n";
-                                    output += "<loc>" + indices[(i + 1)] + "</loc>\n";
-                                    output += "<locfind>" + indices[(j + 1)] + "</locfind>\n";
-                                    output += "<loccreate>" + indices[(k + 1)] + "</loccreate>\n";
-                                    output += "<source>" + matchString.trim() +  "</source>\n";
-                                    output += "<sourcefind>" + newline.substring(mupdate.start(), mupdate.end()).trim() +  "</sourcefind>\n";
-                                    output += "<sourcecreate>" + thirdline.substring(mcreate.start(), mcreate.end()).trim() +  "</sourcecreate>\n";
-                                    output += "</findcreate>\n";
+                                    output += "\t<findcreate>\n";
+                                    output += "\t\t<loc>" + indices[(i + 1)] + "</loc>\n";
+                                    output += "\t\t<locfind>" + indices[(j + 1)] + "</locfind>\n";
+                                    output += "\t\t<loccreate>" + indices[(k + 1)] + "</loccreate>\n";
+                                    output += "\t\t<source>" + matchString.trim() +  "</source>\n";
+                                    output += "\t\t<sourcefind>" + newline.substring(mupdate.start(), mupdate.end()).trim() +  "</sourcefind>\n";
+                                    output += "\t\t<sourcecreate>" + thirdline.substring(mcreate.start(), mcreate.end()).trim() +  "</sourcecreate>\n";
+                                    output += "\t</findcreate>\n";
                                 }
                             }
 
